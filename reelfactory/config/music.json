@@ -1,0 +1,60 @@
+{
+  "$schema": "./schema.md",
+  "_": "Банк фоновых треков. Файлы лежат в public/music/, все приведены к одной громкости −16 LUFS — поэтому настройка music.volume означает одно и то же для любого трека. Треки, поставленные с системой, — CC0 (общественное достояние): использовать можно как угодно, включая коммерческие ролики, автора указывать не обязательно. Свои треки добавляются командой npm run music -- --add <файл или ссылка>: она сама скачает, переведёт в общий формат, выровняет громкость и допишет строку сюда. Руками этот файл править не нужно.",
+  "tracks": [
+    {
+      "file": "music/loyalty-freak-music-02-one-cool-minute.mp3",
+      "title": "One Cool Minute",
+      "mood": "спокойный, ровный",
+      "seconds": 193,
+      "author": "Loyalty Freak Music",
+      "license": "CC0 1.0",
+      "source": "https://archive.org/download/LoyaltyFreakMusic-minimalAmbientBounce/Loyalty_Freak_Music_-_02_-_One_Cool_Minute.mp3"
+    },
+    {
+      "file": "music/loyalty-freak-music-03-old-key.mp3",
+      "title": "Old Key",
+      "mood": "спокойный, задумчивый",
+      "seconds": 158,
+      "author": "Loyalty Freak Music",
+      "license": "CC0 1.0",
+      "source": "https://archive.org/download/LoyaltyFreakMusic-minimalAmbientBounce/Loyalty_Freak_Music_-_03_-_Old_Key.mp3"
+    },
+    {
+      "file": "music/loyalty-freak-music-07-no-cadillac.mp3",
+      "title": "No Cadillac",
+      "mood": "собранный, с лёгким битом",
+      "seconds": 171,
+      "author": "Loyalty Freak Music",
+      "license": "CC0 1.0",
+      "source": "https://archive.org/download/LoyaltyFreakMusic-minimalAmbientBounce/Loyalty_Freak_Music_-_07_-_No_Cadillac.mp3"
+    },
+    {
+      "file": "music/loyalty-freak-music-lofi-ambient-songs-03-lack-of-color-aeroplane.mp3",
+      "title": "Aeroplane",
+      "mood": "лоу-фай, мягкий",
+      "seconds": 134,
+      "author": "Loyalty Freak Music",
+      "license": "CC0 1.0",
+      "source": "https://archive.org/download/loyalty-freak-music-lofi-ambient-songs/Loyalty%20Freak%20Music%20-%20LOFI%20AMBIENT%20SONGS%20%21%20-%2003%20Lack%20of%20Color%20-%20Aeroplane.mp3"
+    },
+    {
+      "file": "music/loyalty-freak-music-lofi-ambient-songs-08-lack-of-color-sugar-and-coffee.mp3",
+      "title": "Sugar and Coffee",
+      "mood": "лоу-фай, тёплый",
+      "seconds": 107,
+      "author": "Loyalty Freak Music",
+      "license": "CC0 1.0",
+      "source": "https://archive.org/download/loyalty-freak-music-lofi-ambient-songs/Loyalty%20Freak%20Music%20-%20LOFI%20AMBIENT%20SONGS%20%21%20-%2008%20Lack%20of%20Color%20-%20Sugar%20and%20coffee.mp3"
+    },
+    {
+      "file": "music/loyalty-freak-music-chill-for-real-05-soft-as-a-dry-pillow.mp3",
+      "title": "Soft as a Dry Pillow",
+      "mood": "мягкий, медленный",
+      "seconds": 182,
+      "author": "Loyalty Freak Music",
+      "license": "CC0 1.0",
+      "source": "https://archive.org/download/loyalty-freak-music-chill-for-real/Loyalty%20Freak%20Music%20-%20CHILL%20FOR%20REAL%20%21%20-%2005%20Soft%20as%20a%20dry%20pillow.mp3"
+    }
+  ]
+}

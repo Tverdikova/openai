@@ -1,0 +1,109 @@
+{
+  "$schema": "./schema.md",
+  "configVersion": 1,
+  "configured": false,
+
+  "language": "ru",
+
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+
+  "safe": {
+    "top": 290,
+    "bottom": 320,
+    "pagePad": 90
+  },
+
+  "subtitles": {
+    "mode": "own",
+    "look": "kinetic",
+    "position": 0.18,
+    "chunk": "page",
+    "size": 1.0,
+    "plate": true,
+    "highlight": true,
+    "accent": "#22C55E"
+  },
+
+  "camera": {
+    "zoom": true
+  },
+
+  "sfx": {
+    "enabled": true,
+    "volume": 1.0,
+    "seams": true
+  },
+
+  "music": {
+    "enabled": false,
+    "track": "auto",
+    "volume": 0.15,
+    "fadeIn": 1.5,
+    "fadeOut": 2.5
+  },
+
+  "style": {
+    "path": "./style"
+  },
+
+  "voice": {
+    "elevenlabs": {
+      "enabled": false,
+      "voiceId": "",
+      "modelId": "eleven_multilingual_v2",
+      "stability": 0.4,
+      "similarityBoost": 0.75,
+      "speed": 1.0
+    }
+  },
+
+  "avatar": {
+    "provider": "none",
+    "avatarId": "",
+    "placement": "corner",
+    "size": 0.32
+  },
+
+  "transcribe": {
+    "engine": "whisper-cli",
+    "model": "models/ggml-large-v3-turbo.bin",
+    "language": "ru"
+  },
+
+  "cleanup": {
+    "enabled": true,
+    "silenceThresholdDb": -45,
+    "minSilenceSec": 1.0,
+    "keepPadSec": 0.25,
+    "cutFillers": true,
+    "cutRepeats": true,
+    "voicePolish": true,
+    "fillers": ["ээ", "эээ", "ммм", "эм"],
+    "videoCutStyle": "none"
+  },
+
+  "shots": {
+    "enabled": true,
+    "web": false,
+    "chromePath": "",
+    "maxPerReel": 4,
+    "waitMs": 15000,
+    "parallel": 6,
+    "viewport": { "width": 1440, "height": 900, "scale": 2 }
+  },
+
+  "render": {
+    "crf": 18,
+    "concurrency": 2,
+    "outputDir": "../OUT REELS",
+    "loudness": {
+      "normalize": true,
+      "targetLufs": -13,
+      "truePeak": -1
+    }
+  }
+}

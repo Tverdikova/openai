@@ -1,0 +1,40 @@
+{
+  "name": "reelfactory",
+  "version": "0.1.0",
+  "private": true,
+  "author": "@andrey_fram",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "type": "module",
+  "description": "Фабрика вертикальных роликов: озвучка/видео -> тайминги -> анимационные сцены -> mp4. Без ручного монтажа.",
+  "scripts": {
+    "install-deps": "node scripts/install-deps.mjs",
+    "doctor": "node scripts/doctor.mjs",
+    "studio": "remotion studio",
+    "intake": "node scripts/intake.mjs",
+    "transcribe": "node scripts/transcribe.mjs",
+    "cleanup": "node scripts/cleanup.mjs",
+    "blocks": "node scripts/blocks.mjs",
+    "scaffold": "node scripts/scaffold.mjs",
+    "render": "node scripts/render.mjs",
+    "check": "node scripts/check.mjs",
+    "tts": "node scripts/tts.mjs",
+    "avatar": "node scripts/avatar.mjs",
+    "music": "node scripts/music.mjs",
+    "sfx": "node scripts/sfx.mjs",
+    "shots": "node scripts/shots.mjs",
+    "probe": "node scripts/probe.mjs"
+  },
+  "dependencies": {
+    "@remotion/captions": "^4.0.286",
+    "@remotion/cli": "4.0.286",
+    "@remotion/google-fonts": "4.0.286",
+    "puppeteer-core": "23.11.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.286"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "typescript": "5.7.3"
+  }
+}
